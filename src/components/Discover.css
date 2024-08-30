@@ -1,0 +1,153 @@
+.discover {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 772px;
+  position: relative;
+  background: #917F6C;
+  padding: 66px 62px;
+
+}
+
+.flex {
+  display: flex;
+  gap: 40px;
+
+}
+
+.frame img {
+  width: 646px;
+  height: 581px;
+  object-fit: cover;
+
+}
+
+.info {
+  max-width: 660px;
+  color: white;
+  text-align: right;
+}
+
+.p1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  margin-top: -132px;
+}
+
+
+.p2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  color: #F3F3F3;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 90px;
+  padding-left: 8px;
+
+}
+
+.btn {
+  padding: 11px 72px;
+  color: black;
+  font-family: 'Poppins';
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 29px;
+  font-size: 15px;
+  margin-right: 10px;
+  background-color: #F3F3F3;
+}
+
+.btn:hover {
+  background: #ffffff;
+}
+
+.zangmo {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #F9BA7F;
+  margin-top: 25px;
+}
+
+@media screen and (max-width:390px) {
+  .discover {
+    max-width: 390px;
+    min-height: 436px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .frame img {
+    width: 349px;
+    height: 170px;
+    margin-top: -10px;
+  }
+
+  .info {
+    position: relative;
+    text-align: center;
+  }
+
+  .p1 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: -285px;
+    width: 229px;
+    height: 14px;
+    right: -226;
+  }
+
+  .p2 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    margin-top: -117px;
+    line-height: 24px;
+    height: 74px;
+    right: 20px;
+    width: 350px;
+    left: -173px;
+  }
+
+  .btn {
+    position: absolute;
+    padding: 5px 20px;
+    border-radius: 20px;
+    left: -60px;
+    top: 45px;
+    border-radius: 20px;
+    width: 140px;
+    height: 37px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .zangmo {
+    position: absolute;
+    font-size: 14px;
+    line-height: 28px;
+    width: 88px;
+    height: 28px;
+    left: 20px;
+    bottom:   165px;
+  }
+}
+
+
+

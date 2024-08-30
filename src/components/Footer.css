@@ -1,0 +1,274 @@
+.footer {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 674px;
+  background: #564335;
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 57px;
+  box-sizing: border-box;
+}
+
+.privacy .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  margin-left: 30px;
+  font-size: 52px;
+  font-weight: 400;
+  font-family: 'Yatra One';
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.logo span {
+  color: #F9BA7F;
+}
+
+.privacy .para1 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+  margin-top: 65px;
+}
+
+.privacy .sub {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.sub input {
+  width: 520px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  color: #D0D9DB;
+}
+
+input::placeholder {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #D0D9DB;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  margin-left: 10px;
+}
+
+.sub button {
+  padding: 14px 20px;
+  filter: drop-shadow(0px 2px 16px rgba(0, 0, 0, 0.1));
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #F9BA7F;
+  cursor: pointer;
+  margin-top: -9px;
+  margin-left: -4px;
+}
+
+hr {
+  width: 610px;
+  margin: 7px 0;
+  color: #f3f3f3;
+}
+
+.privacy .para2 {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+.para2 a {
+  color: #69a1e1;
+}
+
+.privacy .terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 250px;
+  gap: 20px;
+}
+
+
+.terms p {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.company,
+.product {
+  margin-top: 150px;
+  margin-right: 55px;
+}
+
+.company .com,
+.product .pro {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #F9BA7F;
+}
+
+.company p,
+.product p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.company {
+  margin-right: -60px;
+}
+
+@media screen and (max-width:390px) {
+  .footer {
+    max-width: 390px;
+    height: 350px !important;
+    flex-direction: column;
+    padding: 23px 30px;
+  }
+
+  .logo img {
+    width: 44px;
+    height: 51px;
+  }
+
+  .logo p {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .privacy .para1 {
+    font-size: 16px;
+    line-height: 24px;
+    width: 328px;
+    height: 31px;
+    margin-top: 14px;
+  }
+
+  .privacy .sub {
+    margin-top: 25px;
+  }
+
+  .sub input {
+    width: 520px;
+    padding: 10px;
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+    line-height: 28px;
+    margin-left: 2px;
+  }
+
+  .sub button {
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: -7px;
+    margin-left: 60px;
+  }
+
+  hr {
+    width: 100%;
+    margin: -4px 0;
+  }
+
+  .privacy {
+    position: relative;
+  }
+
+  .privacy .para2 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 16px;
+    margin-left: 3px;
+  }
+
+  .para2 br {
+    display: none;
+  }
+
+  .privacy .terms {
+    position: absolute;
+    flex-wrap: nowrap;
+    left: 9px;
+    top: 425px;
+    padding-left: 1px;
+    padding-right: 2px;
+  }
+
+  .terms p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .company {
+    position: relative;
+    right: -12px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product {
+    position: relative;
+    right: -185px;
+    bottom: 435px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .company .com,
+  .product .pro {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .company p,
+  .product p {
+    font-size: 12px;
+    line-height: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .company {
+    margin-right: 0px;
+  }
+
+
+}
