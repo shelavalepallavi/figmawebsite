@@ -5,7 +5,7 @@ const Home = () => {
     <div className="container">
       <header>
         <div className="nav-left">
-          <img src="/assets/menu-01-stroke-rounded.svg" alt="section" />
+          <img src="//shelavale3795.github.io/menu-01-stroke-rounded.svg" alt="section" />
           <span className="name">HomeVibes</span>
         </div>
         <div className="nav-right">
