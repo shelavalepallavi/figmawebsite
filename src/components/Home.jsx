@@ -10,14 +10,14 @@ const Home = () => {
         </div>
         <div className="nav-right">
           <div className="icons">
-          <img src="src/assets/search-01-stroke-rounded.svg" alt="Search" />
-          <img className="heart" src="src/assets/favourite-stroke-rounded.svg" alt="Likes" />
-          <img src="src/assets/shopping-bag-03-stroke-rounded.svg" alt="cart" />
+          <img src="https://shelavale3795.github.io/search-01-stroke-rounded.svg" alt="Search" />
+          <img className="heart" src="https://shelavale3795.github.io/favourite-stroke-rounded.svg" alt="Likes" />
+          <img src="https://shelavale3795.github.io/shopping-bag-03-stroke-rounded.svg" alt="cart" />
             
           </div>
           <div>
             <button className="logbtn">
-              <img src="src/assets/user-stroke-rounded.svg" alt="logIn" />Log in/ Sign up
+              <img src="https://shelavale3795.github.io/user-stroke-rounded.svg" alt="logIn" />Log in/ Sign up
             </button>
           </div>
         </div>
