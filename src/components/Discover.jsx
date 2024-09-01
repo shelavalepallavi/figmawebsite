@@ -6,7 +6,7 @@ const Discover = () => {
     <div className='discover'>
       <div className="flex">
       <div className="frame">
-        <img src="src/assets/discover.jpeg" alt="discover" />
+        <img src="//shelavale3795.github.io/discover.jpeg" alt="discover" />
       </div>
       <div className="info">
         <p className='p1'>DESIGNERS AND MAKERS</p>

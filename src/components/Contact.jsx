@@ -6,13 +6,20 @@ const Contact = () => {
     <div className="contact">
       <div className="head">
         <div className="email">
-          <img src="src/assets/email.svg" alt="mail" />
+          <img src="//shelavale3795.github.io/email.svg" alt="mail" />
           <p>Email us @ xyz@HomeVibes.com</p>
         </div>
+<<<<<<< HEAD
         <div className="flexicon">
           <img src="src/assets/facebook.svg" alt="facebook" />
           <img src="src/assets/insta.svg" alt="instagram" />
           <img src="src/assets/twitter.svg" alt="twitter" />
+=======
+        <div className="flex">
+          <img src="//shelavale3795.github.io/facebook.svg" alt="facebook" />
+          <img src="//shelavale3795.github.io/insta.svg" alt="instagram" />
+          <img src="//shelavale3795.github.io/twitter.svg" alt="twitter" />
+>>>>>>> ed5fd78d4d12821dee5ed2bbfb5e45db42c10544
         </div>
       </div>
 

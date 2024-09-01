@@ -8,15 +8,15 @@ const Collections = () => {
       <p className="para2">curated specially for you</p>
       <div className="row">
         <div className="col">
-          <img src="src/assets/collection1.jpeg" alt="col1" />
+          <img src="//shelavale3795.github.io/collection1.jpeg" alt="col1" />
           <button className="view">View collection</button>
         </div>
         <div className="col">
-          <img src="src/assets/collection2.jpeg" alt="col2" />
+          <img src="//shelavale3795.github.io/collection2.jpeg" alt="col2" />
           <button className="view">View collection</button>
         </div>
         <div className="col">
-          <img src="src/assets/collection3.jpeg" alt="col3" />
+          <img src="//shelavale3795.github.io/collection3.jpeg" alt="col3" />
           <button className="view">View collection</button>
         </div>
       </div>
