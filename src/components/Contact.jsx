@@ -9,10 +9,12 @@ const Contact = () => {
           <img src="//shelavale3795.github.io/email.svg" alt="mail" />
           <p>Email us @ xyz@HomeVibes.com</p>
         </div>
+
         <div className="flex">
           <img src="//shelavale3795.github.io/facebook.svg" alt="facebook" />
           <img src="//shelavale3795.github.io/insta.svg" alt="instagram" />
           <img src="//shelavale3795.github.io/twitter.svg" alt="twitter" />
+
         </div>
       </div>
 
