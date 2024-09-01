@@ -34,7 +34,7 @@
   letter-spacing: -0.02em;
 }
 
-.flex {
+.flexicon {
   display: flex;
   align-items: center;
   gap: 65px;
@@ -83,7 +83,8 @@ form div {
   background-color: #000000;
   margin-top: -10px;
 }
-input{
+
+input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -93,7 +94,8 @@ input{
   margin-left: -10px;
   color: #F3F3F3;
 }
-input.ipt::placeholder{
+
+input.ipt::placeholder {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -108,7 +110,8 @@ input.ipt::placeholder{
 input:focus {
   outline: none;
 }
- .contact-btn {
+
+.contact-btn {
   padding: 23px 108px;
   margin-top: 65px;
   margin-left: 13px;
@@ -125,12 +128,84 @@ input:focus {
   color: #23272A;
   font-family: 'Segoe UI', 'Open Sans';
   cursor: pointer;
-} 
+}
 
 
-@media screen and (max-width:390px)  {
-  .contact{
+@media screen and (max-width:1024px) {
+  .contact {
+    width: 100%;
+    max-width: 1024px;
+    min-height: 828px;
+  }
+
+  form {
+    position: absolute;
+    width: 252px;
+    height: 35px;
+    left: 720px;
+    top: 190px;
+
+  }
+
+  form p {
+    font-size: 39px;
+    line-height: 21px;
+
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 28px;
+  }
+
+  .input-container {
+    position: relative;
+    margin-top: 19px;
+  }
+
+  .input-container::after {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  input.ipt::placeholder {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .contact-btn {
+    padding: 20px 76px;
+    margin-top: 58px;
+    margin-left: -10px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:965px) {
+  .contact {
+    width: 100%;
+    max-width: 965px;
+    min-height: 828px;
+  }
+  form {
+    left: 500px;
+
+  }
+
+}
+@media screen and (max-width:759px) {
+  .contact {
     display: none;
   }
 }
-
+@media screen and (max-width:390px) {
+  .contact {
+    display: none;
+  }
+}

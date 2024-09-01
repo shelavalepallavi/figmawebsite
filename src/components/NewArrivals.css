@@ -120,9 +120,316 @@
   z-index: 1;
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:1366px) {
   .box {
-    max-width: 390px;
+    max-width: 1366px;
+    min-height: 1052px;
+    gap: 25px;
+    padding: 63px 48px;
+  }
+
+  .img3 {
+    background: url('../assets/pexels-eneida-nieves-2.png');
+    position: absolute;
+    width: 350px;
+    height: 360px;
+    top: 321px;
+    left: 526px;
+    opacity: 1;
+    z-index: 2;
+    background-size: cover
+  }
+
+  .img4 {
+    background: url('../assets/plant1.png');
+    background-size: cover;
+    position: absolute;
+    width: 279px;
+    height: 583px;
+    top: 188px;
+    left: 57px;
+    opacity: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .img2 {
+    background: url('../assets/lamp-thai-style.png');
+    position: absolute;
+    width: 277px;
+    height: 269px;
+    left: 335px;
+    opacity: 1;
+    background-size: cover
+  }
+
+  .img5 {
+    position: absolute;
+    width: 500px;
+    height: 243px;
+    top: 532px;
+    left: 378px;
+    opacity: 0.9;
+    border-radius: 286% 416% 188% 527%;
+    object-fit: cover;
+    background: url('../assets/newarrivals.png');
+    background: #917F6C 41%;
+    background-color: rgba(145, 127, 108, 0.41);
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width:1190px) {
+  .box {
+    max-width: 1190px;
+    min-height: 1000px;
+    gap: 25px;
+    padding: 63px 48px;
+  }
+
+  .img3 {
+    background: url('../assets/pexels-eneida-nieves-2.png');
+    position: absolute;
+    width: 334px;
+    height: 309px;
+    top: 321px;
+    left: 526px;
+    opacity: 1;
+    z-index: 2;
+    background-size: cover
+  }
+
+  .img4 {
+    background: url('../assets/plant1.png');
+    background-size: cover;
+    position: absolute;
+    width: 230px;
+    height: 559px;
+    top: 188px;
+    left: 57px;
+    opacity: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .img2 {
+    background: url('../assets/lamp-thai-style.png');
+    position: absolute;
+    width: 241px;
+    height: 238px;
+    left: 335px;
+    opacity: 1;
+    background-size: cover
+  }
+
+  .img5 {
+    position: absolute;
+    width: 423px;
+    height: 155px;
+    top: 532px;
+    left: 378px;
+    opacity: 0.9;
+    border-radius: 286% 416% 188% 527%;
+    object-fit: cover;
+    background: url('../assets/newarrivals.png');
+    background: #917F6C 41%;
+    background-color: rgba(145, 127, 108, 0.41);
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .box {
+    max-width: 1100px;
+    min-height: 900px;
+    gap: 25px;
+    padding: 63px 48px;
+  }
+
+  .img1 {
+    background: url('../assets/pexels-eneida-nieves-1.png');
+    position: absolute;
+    width: 241px;
+    height: 368px;
+    top: 340px;
+    left: 322px;
+    opacity: 1;
+    z-index: 2;
+    background-size: cover;
+  }
+
+  .img3 {
+    background: url('../assets/pexels-eneida-nieves-2.png');
+    position: absolute;
+    width: 179px;
+    height: 176px;
+    top: 321px;
+    left: 468px;
+    opacity: 1;
+    z-index: 2;
+    background-size: cover
+  }
+
+  .img4 {
+    background: url('../assets/plant1.png');
+    background-size: cover;
+    position: absolute;
+    width: 202px;
+    height: 486px;
+    top: 188px;
+    left: 57px;
+    opacity: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .img2 {
+    background: url('../assets/lamp-thai-style.png');
+    position: absolute;
+    width: 192px;
+    height: 195px;
+    left: 335px;
+    opacity: 1;
+    background-size: cover
+  }
+
+  .img5 {
+    position: absolute;
+    width: 195px;
+    height: 86px;
+    top: 445px;
+    left: 475px;
+    opacity: 0.9;
+    border-radius: 286% 416% 188% 527%;
+    object-fit: cover;
+    background: url('../assets/newarrivals.png');
+    background: #917F6C 41%;
+    background-color: rgba(145, 127, 108, 0.41);
+    z-index: 1;
+  }
+
+  .newarrivals {
+    width: 180px;
+    height: 700px;
+    background-image: url('../assets/newarrivals.png'), rgba(86, 67, 53, 0.77);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #564335;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .newarrivals h2 {
+    transform: rotate(-90deg);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .bestsellers {
+    width: 1084px;
+    height: 700px;
+    background: #083344;
+    flex-grow: 1;
+    position: relative;
+
+  }
+}
+
+@media screen and (max-width:974px) {
+  .box {
+    max-width: 974px;
+    min-height: 800px;
+    gap: 25px;
+    padding: 63px 48px;
+  }
+
+  .img1 {
+    background: url('../assets/pexels-eneida-nieves-1.png');
+    position: absolute;
+    width: 196px;
+    height: 310px;
+    top: 297px;
+    left: 278px;
+    opacity: 1;
+    z-index: 2;
+    background-size: cover;
+  }
+
+  .img3 {
+    visibility: hidden;
+
+  }
+
+  .img4 {
+    background: url('../assets/plant1.png');
+    background-size: cover;
+    position: absolute;
+    width: 202px;
+    height: 486px;
+    top: 188px;
+    left: 57px;
+    opacity: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .img2 {
+    background: url('../assets/lamp-thai-style.png');
+    position: absolute;
+    width: 139px;
+    height: 133px;
+    left: 335px;
+    opacity: 1;
+    background-size: cover
+  }
+
+  .img5 {
+    visibility: hidden;
+
+  }
+
+  .newarrivals {
+    width: 180px;
+    height: 700px;
+    background-image: url('../assets/newarrivals.png'), rgba(86, 67, 53, 0.77);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #564335;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .newarrivals h2 {
+    transform: rotate(-90deg);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    white-space: nowrap;
+  }
+
+  .bestsellers {
+    width: 1084px;
+    height: 700px;
+    background: #083344;
+    flex-grow: 1;
+    position: relative;
+
+  }
+}
+
+@media screen and (max-width:700px) {
+  .box {
+    max-width: 700px;
     min-height: 1052px;
     display: block;
     padding: 15px;
@@ -241,6 +548,156 @@
 
   .img4 {
     position: absolute;
+    width: 132px;
+    height: 280px;
+    left: 236px;
+    top: 193px;
+  }
+
+  .img5 {
+    position: absolute;
+    width: 250px;
+    height: 138px;
+    left: 15px;
+    top: 335px;
+    z-index: 1;
+    border-radius: 286% 532% 705% 527%;
+  }
+
+  .img1 {
+    display: none;
+  }
+  .img5, .img3 {
+    visibility: visible;
+
+  }
+
+}
+
+@media screen and (max-width:390px) {
+  .box {
+    max-width: 390px;
+    min-height: 1052px;
+    display: block;
+    padding: 15px;
+    padding-bottom: 0;
+  }
+
+  .newarrivals {
+    width: 351px;
+    height: 482px;
+    position: relative;
+    padding: 25px;
+  }
+
+  .newarrivals h2 {
+    display: block;
+    font-size: 28px;
+    line-height: 36px;
+    line-height: 40px;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+  }
+
+  .newarrivals .i1 {
+    position: absolute;
+    background-image: url('../assets/plant2.png');
+    background-size: cover;
+    background-position: center;
+    width: 258px;
+    height: 158px;
+    left: 125px;
+    top: 320px;
+  }
+
+  .newarrivals .i2 {
+    position: absolute;
+    background-image: url('../assets/basket.png');
+    background-size: cover;
+    background-position: center;
+    width: 90px;
+    height: 106px;
+    left: 20px;
+    top: 346px;
+    z-index: 2;
+  }
+
+  .newarrivals .i3 {
+    position: absolute;
+    background-image: url('../assets/chair.png');
+    background-size: cover;
+    background-position: center;
+    width: 178px;
+    height: 253px;
+    left: 97px;
+    top: 146px;
+    z-index: 2;
+  }
+
+  .newarrivals .i4 {
+    position: absolute;
+    background-image: url('../assets/newarrivals.png');
+    background-size: cover;
+    background-position: center;
+    width: 224px;
+    height: 200px;
+    left: 42px;
+    top: 224px;
+    border-radius: 286% 416% 188% 527%;
+    background: #917F6C 41%;
+    background-color: rgba(145, 127, 108, 0.41);
+    z-index: 1;
+
+  }
+
+  .bestsellers {
+    width: 351px;
+    height: 482px;
+    position: relative;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .bestsellers h2 {
+    position: absolute;
+    width: 120px;
+    height: 65px;
+    left: 20px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .img5, .img3 {
+    visibility: visible;
+
+  }
+  .img3 {
+    position: absolute;
+    width: 178px;
+    height: 217px;
+    left: 35px;
+    top: 148px;
+    z-index: 2;
+    background-size: cover;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-position: center;
+  }
+
+  .img2 {
+    position: absolute;
+    width: 108px;
+    height: 110px;
+    left: 196px;
+    top: 0px;
+  }
+
+  .img4 {
+    position: absolute;
     width: 134px;
     height: 280px;
     left: 237px;
@@ -256,7 +713,8 @@
     z-index: 1;
     border-radius: 286% 532% 705% 527%;
   }
-  .img1{
+
+  .img1 {
     display: none;
   }
 

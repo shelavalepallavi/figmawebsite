@@ -107,6 +107,90 @@
   line-height: 19px;
 }
 
+@media screen and (max-width:930px) {
+  .testimonials {
+    width: 100%;
+    max-width: 930px;
+    min-height: 560px;
+  }
+
+  .test1 {
+    margin-top: 121px;
+
+  }
+
+  .test2 {
+    margin-top: 80px;
+  }
+
+
+  .test3 {
+    padding: 26px 41px 61px;
+    margin-top: 148px;
+  }
+  .test3 .person{
+    margin-top: 13px;
+  }
+  .test1 span,.test2 span,.test3 span{
+    margin-top: 128px;
+  }
+  
+}
+@media screen and (max-width:857px) {
+  .test2 span{
+    display: none;
+  }
+}
+@media screen and (max-width:774px) {
+  .testimonials {
+    width: 100%;
+    max-width: 774px;
+    min-height: 560px;
+  }
+  .test2{
+    display: none;
+  }
+  .group {
+    /* justify-content: space-around; */
+    gap: 20px;
+  }
+  .test1{
+    width: 40%;
+  }
+  .test3{
+    width: 40%;
+  }
+  .test1 span,.test2 span,.test3 span{
+    margin-top: 128px;
+  }
+  .test3 span{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width:581px) {
+  .testimonials {
+    max-width: 581px;
+    min-height: 436px;
+  }
+  
+  .group {
+    display: flex;
+  }
+
+  .test2,
+  .test3 {
+    display: none;
+  }
+
+  .test1 {
+    position: absolute;
+    padding: 50px 30px 90px;
+    width: 357.33px;
+    height: 332px;
+    bottom: 55px;
+    left:110px;
+  }
+}
 @media screen and (max-width:390px) {
   .testimonials {
     max-width: 390px;
@@ -114,7 +198,8 @@
     overflow-x: scroll;
     padding: 32px 16px;
   }
-  .group{
+
+  .group {
     display: flex;
   }
 
@@ -132,7 +217,3 @@
     left: 21px;
   }
 }
-
-
-
-

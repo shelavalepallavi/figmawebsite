@@ -9,7 +9,7 @@ const Contact = () => {
           <img src="src/assets/email.svg" alt="mail" />
           <p>Email us @ xyz@HomeVibes.com</p>
         </div>
-        <div className="flex">
+        <div className="flexicon">
           <img src="src/assets/facebook.svg" alt="facebook" />
           <img src="src/assets/insta.svg" alt="instagram" />
           <img src="src/assets/twitter.svg" alt="twitter" />

@@ -207,6 +207,38 @@
   opacity: 1;
 }
 
+@media screen and (max-width:1024px) {
+  .categories {
+    width: 100%;
+    max-width: 1024px;
+    min-height: 840px;
+  }
+  .card3{
+    display: none;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 100px;
+  
+  }
+}
+@media screen and (max-width:686px) {
+  .categories {
+    width: 100%;
+    max-width: 686px;
+    min-height: 840px;
+  }
+  .card3{
+    display: none;
+  }
+  .card2{
+    display: none;
+  }
+}
+
 @media screen and (max-width:390px) {
   .categories{
     display: none;
