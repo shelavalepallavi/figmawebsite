@@ -2,10 +2,10 @@ import React from "react";
 import "./Home.css";
 const Home = () => {
   return (
-    <div className="container">
+    <div className="container section">
       <header>
         <div className="nav-left">
-          <img src="//shelavale3795.github.io/menu-01-stroke-rounded.svg" alt="section" />
+          <img src="https://shelavale3795.github.io/menu-01-stroke-rounded.svg" alt="section" />
           <span className="name">HomeVibes</span>
         </div>
         <div className="nav-right">

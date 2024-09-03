@@ -1,10 +1,9 @@
 .footer {
   width: 100%;
-  max-width: 1440px;
-  min-height: 674px;
+  height: 674px;
   background: #564335;
   display: flex;
-  justify-content: space-between;
+  gap:60px;
   padding: 90px 57px;
   box-sizing: border-box;
 }
@@ -150,73 +149,73 @@ hr {
 }
 
 .company {
-  margin-right: -60px;
+  margin-right: 0px;
 }
 
 @media screen and (max-width:1024px) {
   .footer {
-    max-width: 1024px;
-    height: 800px ;
     flex-direction: column;
+    align-items: center;
     padding: 23px 30px;
   }
-
+  .privacy {
+    width: 100%;
+    padding: 15px 25px;
+    position: relative;
+  }
    .logo img {
-    width: 44px;
-    height: 51px;
+    width: 75px;
+    height: 75px;
   }
 
   .logo p {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 48px;
   }
+ 
 
   .privacy .para1 {
-    font-size: 16px;
+    font-size: 21px;
     line-height: 24px;
-    width: 328px;
     height: 31px;
-    margin-top: 14px;
+    margin-top: 44px;
+
   }
 
   .privacy .sub {
-    margin-top: 25px;
+    margin-top: 18px;
   }
 
   .sub input {
-    width: 520px;
-    padding: 10px;
-    font-size: 12px;
-    padding: 0px 10px;
+    width: 100%; 
+    padding: 8px;
+    font-size: 14px;
   }
 
   input::placeholder {
-    font-size: 12px;
-    line-height: 28px;
-    margin-left: 2px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .sub button {
-    font-size: 12px;
-    line-height: 24px;
-    margin-top: -7px;
-    margin-left: -128px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    margin-left: 0;
   }
 
   hr {
-    width: 465px;
-    margin: -4px 0;
+    width: 100%; 
+    margin: 10px 0;
   }
 
-  .privacy {
-    position: relative;
-  }
 
   .privacy .para2 {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
     margin-top: 16px;
-    margin-left: 3px;
+    margin-left: 0px;
   }
 
   .para2 br {
@@ -226,42 +225,41 @@ hr {
   .privacy .terms {
     position: absolute;
     flex-wrap: nowrap;
-    left: 9px;
-    top: 425px;
-    padding-left: 1px;
-    padding-right: 2px;
+    padding-left: 0px;
+    bottom: -335px;
   }
 
   .terms p {
     font-size: 14px;
     line-height: 28px;
+    margin-bottom: 10px;
   }
   .company {
     position: relative;
-    right: -12px;
-    bottom: 100px;
-    display: flex;
-    flex-direction: column;
+    right: 370px;
+    bottom: 135px;
+    width: 130px;
+    height: 300px;
   }
 
   .product {
     position: relative;
-    right: -185px;
-    bottom: 435px;
-    display: flex;
-    flex-direction: column;
+    right: 133px;
+    bottom: 540px;
+    width: 130px;
+    height: 300px;
   }
 
   .company .com,
   .product .pro {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
   }
 
   .company p,
   .product p {
-    font-size: 12px;
-    line-height: 2px;
+    font-size: 14px;
+    line-height: 19px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -272,23 +270,92 @@ hr {
 
 
 }
-@media screen and (max-width:493px) {
-  .footer {
-    max-width: 493px;
-    height: 450px !important;
-    flex-direction: column;
-    padding: 23px 30px;
+@media screen and (max-width:955px) {
+  .company{
+    right: 300px
   }
-  hr{
-    width: 100%;
+  .product{
+    right: 36px;
+  }
+
+}
+@media screen and (max-width:780px) {
+  .company{
+    right: 215px
+  }
+  .product{
+    right: 0px;
+  }
+
+}
+@media screen and (max-width:639px) {
+  .company{
+    right: 186px
+  }
+  .product{
+    right: -70px;
+  }
+  .privacy .terms {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+}
+@media screen and (max-width:598px) {
+  .footer{
+    height: 600px;
+  }
+  .logo img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .logo p {
+    margin-left: 10px;
+    font-size: 40px;
+  }
+  .privacy .para1 {
+    font-size: 18px;
+
+  }
+  .company{
+    bottom: 186px;
+    right: 170px
+  }
+  .product{
+    right: -70px;
+    bottom: 590px;
+  }
+  .privacy .terms {
+    padding-left: 0px;
+    bottom: -287px;
+    padding-right: 0px;
+}
+
+}
+
+@media screen and (max-width:546px) {
+  .company{
+    bottom: 186px;
+    right: 130px;
   }
 }
+@media screen and (max-width:487px) {
+  .company{
+    bottom: 186px;
+    right: 85px;
+  }
+  .product{
+    right: -90px;
+  }
+}
+
+
 @media screen and (max-width:390px) {
   .footer {
-    max-width: 390px;
-    height: 350px !important;
-    flex-direction: column;
-    padding: 23px 30px;
+    padding: 16px 12px;
+    height: 550px;
+
   }
 
   .logo img {
@@ -310,7 +377,7 @@ hr {
   }
 
   .privacy .sub {
-    margin-top: 25px;
+    margin-top: 30px;
   }
 
   .sub input {
@@ -338,15 +405,12 @@ hr {
     margin: -4px 0;
   }
 
-  .privacy {
-    position: relative;
-  }
-
+  
   .privacy .para2 {
     font-size: 12px;
     line-height: 16px;
-    margin-top: 16px;
-    margin-left: 3px;
+    margin-top: 22px;
+    margin-left: 0px;
   }
 
   .para2 br {
@@ -356,49 +420,31 @@ hr {
   .privacy .terms {
     position: absolute;
     flex-wrap: nowrap;
-    left: 9px;
-    top: 425px;
-    padding-left: 1px;
-    padding-right: 2px;
+    left: 0px;
+    top: 335px;
+    padding-left: 25px;
+    padding-right: 0px;
   }
 
   .terms p {
     font-size: 14px;
     line-height: 28px;
+    margin-bottom: 0;
   }
-  .company {
-    position: relative;
-    right: -12px;
-    bottom: 100px;
-    display: flex;
-    flex-direction: column;
+  .company{
+    bottom: 186px;
+    right: 77px;
+    margin-top: 135px;
   }
-
-  .product {
-    position: relative;
-    right: -185px;
-    bottom: 435px;
-    display: flex;
-    flex-direction: column;
+  .product{
+    right: -90px;
+    margin-top: 152px;
   }
-
-  .company .com,
-  .product .pro {
-    font-size: 16px;
-    line-height: 28px;
-  }
-
   .company p,
   .product p {
     font-size: 12px;
-    line-height: 2px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .company {
-    margin-right: 0px;
+    line-height: 19px;
   }
 
 
-}
+} 

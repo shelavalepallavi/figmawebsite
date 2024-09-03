@@ -1,7 +1,6 @@
 .contact {
   width: 100%;
-  max-width: 1440px;
-  min-height: 828px;
+  height: 828px;
   position: relative;
   background-image: url('../assets/contact.jpeg');
   background-size: cover;
@@ -33,8 +32,7 @@
   line-height: 28px;
   letter-spacing: -0.02em;
 }
-
-.flexicon {
+.space-icon {
   display: flex;
   align-items: center;
   gap: 65px;
@@ -130,82 +128,90 @@ input:focus {
   cursor: pointer;
 }
 
-
-@media screen and (max-width:1024px) {
-  .contact {
+ @media screen and (max-width:1119px) {
+  form{
+    width: 340px;
+  }
+  .input-container::after{
     width: 100%;
-    max-width: 1024px;
-    min-height: 828px;
   }
-
-  form {
-    position: absolute;
-    width: 252px;
-    height: 35px;
-    left: 720px;
-    top: 190px;
-
+}
+@media screen and (max-width:1059px) {
+  form{
+    width: 320px;
+    left: 665px;
   }
-
-  form p {
-    font-size: 39px;
-    line-height: 21px;
-
+  .input-container::after{
+    width: 90%;
   }
+  form div{
+    margin-right: 15px;
+  }
+  form p{
+    font-size: 58px;
+  }
+  .contact-btn{
+    margin-left: 0;
+    padding: 20px 78px;
+  }
+} 
+  @media screen and (max-width:984px) {
+    form{
+      width: 320px;
+      left: 545px;
+    }
+    .contact-btn{
+      margin-left: 0;
+      padding: 20px 65px;
+    }
 
+ 
+} 
+
+@media screen and (max-width:864px) {
+  form{
+    width: 300px;
+    left: 490px;
+  }
+  form p{
+    font-size: 44px;
+  }
   form div {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    margin-top: 28px;
+    gap: 16px;
+    margin-top: 20px;
   }
-
   .input-container {
     position: relative;
     margin-top: 19px;
   }
-
-  .input-container::after {
-    width: 100%;
-  }
-
   input {
     width: 100%;
     padding: 8px;
-    font-size: 14px;
+    font-size: 18px;
   }
-
   input.ipt::placeholder {
     font-size: 18px;
-    line-height: 28px;
   }
-
-  .contact-btn {
-    padding: 20px 76px;
-    margin-top: 58px;
-    margin-left: -10px;
-    font-size: 18px;
+  .contact-btn{
+    margin-left: 0;
+    padding: 16px 53px;
+    margin-top: 50px;
   }
-}
-@media screen and (max-width:965px) {
-  .contact {
-    width: 100%;
-    max-width: 965px;
-    min-height: 828px;
-  }
-  form {
-    left: 500px;
-
+  .space-icon{
+    display: none;
   }
 
 }
-@media screen and (max-width:759px) {
+
+@media screen and (max-width:789px) {
+  form{
+    width: 290px;
+    left: 437px;
+  }
+}
+
+@media screen and (max-width:726px) {
   .contact {
     display: none;
   }
-}
-@media screen and (max-width:390px) {
-  .contact {
-    display: none;
-  }
-}
+} 

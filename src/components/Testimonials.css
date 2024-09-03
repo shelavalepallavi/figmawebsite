@@ -1,7 +1,6 @@
 .testimonials {
   width: 100%;
-  max-width: 1440px;
-  min-height: 560px;
+  height: 560px;
   background: #083344;
   position: relative;
 }
@@ -107,72 +106,118 @@
   line-height: 19px;
 }
 
-@media screen and (max-width:930px) {
+@media screen and (max-width:1014px) {
+  .test3 {
+    width: 30%;
+    height: auto;
+    padding: 0px 40px 90px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #F3F3F3;
+    opacity: 0.8;
+    margin-top: 90px;
+    z-index: 0;
+  }
+
+}
+
+@media screen and (max-width:930px){
   .testimonials {
     width: 100%;
-    max-width: 930px;
-    min-height: 560px;
   }
 
   .test1 {
-    margin-top: 121px;
+    margin-top: 105px;
 
   }
 
   .test2 {
-    margin-top: 80px;
+    padding: 0px 24px 71px;
+    margin-top: 45px;
   }
 
 
   .test3 {
-    padding: 26px 41px 61px;
-    margin-top: 148px;
+    padding: 0px 41px 61px;
+    margin-top: 86px;
   }
-  .test3 .person{
+
+  .test3 .person {
     margin-top: 13px;
   }
-  .test1 span,.test2 span,.test3 span{
+
+  .test1 span,
+  .test2 span,
+  .test3 span {
     margin-top: 128px;
   }
-  
+
 }
+
 @media screen and (max-width:857px) {
-  .test2 span{
+  .test2 span {
+    display: none;
+  }
+
+  .test3 span {
     display: none;
   }
 }
-@media screen and (max-width:774px) {
+
+@media screen and (max-width:845px) {
+  .test2 {
+    padding: 0px 24px 71px;
+    margin-top: 113px;
+  }
+}
+
+@media screen and (max-width:785px) {
   .testimonials {
     width: 100%;
-    max-width: 774px;
-    min-height: 560px;
   }
-  .test2{
+
+  .test2 {
     display: none;
   }
+
   .group {
-    /* justify-content: space-around; */
     gap: 20px;
   }
-  .test1{
+
+  .test1 {
     width: 40%;
   }
-  .test3{
+
+  .test3 {
     width: 40%;
   }
-  .test1 span,.test2 span,.test3 span{
+
+  .test1 span,
+  .test2 span,
+  .test3 span {
     margin-top: 128px;
   }
-  .test3 span{
-    margin-top: 100px;
+
+  .test3 span {
+    margin-top: 105px;
+    margin-left: 86px;
+    display: block;
   }
 }
+
+@media screen and (max-width:589px){
+  .test1 span,
+  .test3 span {
+    display: none;
+  }
+}
+
 @media screen and (max-width:581px) {
   .testimonials {
-    max-width: 581px;
-    min-height: 436px;
+    height: 436px !important;
   }
-  
+
   .group {
     display: flex;
   }
@@ -184,19 +229,22 @@
 
   .test1 {
     position: absolute;
-    padding: 50px 30px 90px;
-    width: 357.33px;
-    height: 332px;
-    bottom: 55px;
-    left:110px;
+    padding: 34px 30px 90px;
+    width: 405.33px;
+    height: 354px;
+    bottom: 31px;
+    left: 110px;
+  }
+
+  .person {
+    margin-top: 87px;
+    margin-left: 7px;
   }
 }
-@media screen and (max-width:390px) {
+
+@media screen and (max-width:500px) {
   .testimonials {
-    max-width: 390px;
-    min-height: 436px;
-    overflow-x: scroll;
-    padding: 32px 16px;
+    height: 436px;
   }
 
   .group {
@@ -210,10 +258,106 @@
 
   .test1 {
     position: absolute;
+    padding: 12px 28px;
+    width: 362.33px;
+    height: 350px;
+    bottom: 42px;
+    left: 50px;
+  }
+
+  .person {
+    margin-top: 95px;
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width:412px) {
+  .testimonials{
+    height: 436px;
+  }
+  .test1 {
+    position: absolute;
     padding: 50px 30px 90px;
     width: 357.33px;
     height: 332px;
-    bottom: 95px;
-    left: 21px;
+    bottom: 46px;
+    left: 44px;
   }
+
+  .person {
+    margin-top: 40px;
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .testimonials {
+    height: 436px !important;
+    padding: 6px 16px;
+    position: relative;
+  }
+
+  .group {
+    display: flex;
+    justify-content: center;
+  }
+
+  .test2,
+  .test3 {
+    display: none;
+  }
+
+  .test1 {
+    position: absolute;
+    padding: 50px 30px 90px;
+    width: 357.33px;
+    height: 332px;
+    bottom: 71px; 
+    left: 50%; 
+    transform: translateX(-45%);
+  }
+  .person{
+    margin-left: 1px;
+  }
+}
+
+@media screen and (max-width:374px) {
+  .testimonials {
+    padding: 0px 133px;
+  }
+
+  .group {
+    display: flex;
+  }
+
+  .test2,
+  .test3 {
+    display: none;
+  }
+
+  .test1 {
+    position: absolute;
+    padding: 4px 30px;
+    width: 280.33px;
+    height: 256px;
+    bottom: 143px;
+    left: 50px;
+  }
+  .test1 .person {
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+    transform: translateX(-50%);
+    object-fit: cover;
+    margin-top: 13px;
+    margin-left: 5px;
+  }
+  .test1 p{
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .test1 img {
+    width: 20px;
+    height: 20px;
+}
 }

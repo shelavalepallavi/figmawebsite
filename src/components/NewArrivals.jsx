@@ -3,7 +3,7 @@ import './NewArrivals.css'
 
 const NewArrivals = () => {
   return (
-    <div className='box'>
+    <div className='box section'>
       <div className="newarrivals">
         <h2>New arrivals</h2>
         <div className='i1'></div>

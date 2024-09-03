@@ -1,7 +1,6 @@
 .categories {
   width: 100%;
-  max-width: 1440px;
-  min-height: 840px;
+  height: 840px;
   background: #346C81;
   position: relative;
   color: white;
@@ -206,12 +205,79 @@
 .card3 .image5:hover,.image1:hover,.image2:hover,.image3:hover,.image4:hover{
   opacity: 1;
 }
+@media screen and (max-width:1405px) {
+.categories{
+  height: 840px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-top: 100px;
+  gap: 90px;
 
-@media screen and (max-width:1024px) {
+}
+.card1, .card2, .card3{
+  width: 300px;
+}
+}
+@media screen and (max-width:1263px) {
+.categories{
+  height: 840px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-top: 100px;
+  gap: 60px;
+
+}
+.card1, .card2, .card3{
+  width: 300px;
+}
+}
+@media screen and (max-width:1203px) {
+.categories{
+  height: 840px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-top: 100px;
+  gap: 40px;
+
+}
+.card1, .card2, .card3{
+  width: 300px;
+}
+}
+@media screen and (max-width:1163px) {
+.categories{
+  height: 840px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-top: 100px;
+  gap: 25px;
+
+}
+.card1, .card2, .card3{
+  width: 300px;
+}
+}
+
+@media screen and (max-width:1133px) {
   .categories {
     width: 100%;
-    max-width: 1024px;
-    min-height: 840px;
+    height: 840px;
   }
   .card3{
     display: none;
@@ -224,22 +290,11 @@
     margin-top: 100px;
   
   }
-}
-@media screen and (max-width:686px) {
-  .categories {
-    width: 100%;
-    max-width: 686px;
-    min-height: 840px;
-  }
-  .card3{
-    display: none;
-  }
-  .card2{
-    display: none;
+  .card1, .card2{
+    width: 315px;
   }
 }
-
-@media screen and (max-width:390px) {
+@media screen and (max-width:849px) {
   .categories{
     display: none;
   }
