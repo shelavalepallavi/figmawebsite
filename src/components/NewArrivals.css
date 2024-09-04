@@ -587,6 +587,7 @@
   }
 
   .img2 {
+    display: block;
     position: absolute;
     width: 108px;
     height: 110px;
