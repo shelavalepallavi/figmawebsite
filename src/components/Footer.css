@@ -421,7 +421,7 @@ hr {
     position: absolute;
     flex-wrap: nowrap;
     left: 0px;
-    top: 335px;
+    top: 355px;
     padding-left: 25px;
     padding-right: 0px;
   }
@@ -432,13 +432,13 @@ hr {
     margin-bottom: 0;
   }
   .company{
-    bottom: 186px;
-    right: 77px;
+    bottom: 175px;
+    right: 86px;
     margin-top: 135px;
   }
   .product{
     right: -90px;
-    margin-top: 152px;
+    margin-top: 160px;
   }
   .company p,
   .product p {
