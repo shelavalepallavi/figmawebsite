@@ -361,3 +361,32 @@
     height: 20px;
 }
 }
+@media screen and (max-width:330px) {
+  .testimonials{
+    padding: 10px 112px;
+  }
+  .group{
+    height: 400px;
+  }
+  .test1{
+    padding: 4px 10px;
+    width: 250.33px;
+    bottom: 110px;
+  }
+  .test1 .person{
+    margin-top: 34px;
+  }
+}
+@media screen and (max-width:285px) {
+  .testimonials{
+    padding: 10px 89px;
+  }
+  .test1{
+    width: 199.33px;
+  }
+  .test1 .person{
+    margin-top: 5px;
+    width: 60px !important;
+    height: 60px !important;
+  }
+}      

@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 .main_wrapper{
-  width:  100%;
   max-width: 1440px;
   margin: 0 auto;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 
 @media screen and (max-width: 390px) {

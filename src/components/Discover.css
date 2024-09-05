@@ -192,4 +192,10 @@
 
   
 }
+@media screen and (max-width: 348px) {
+.btn{
+  margin-top: 12px;
+  font-size: 10px;
+}
+}
 

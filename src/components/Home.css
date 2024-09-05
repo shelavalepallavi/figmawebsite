@@ -10,6 +10,7 @@
   position: relative;
   background-image: url('../assets/Home.jpeg');
   background-size: cover;
+  background-position: center;
   color: white;
   margin: 0 auto;
   padding: 0 15px;
@@ -84,7 +85,7 @@ header {
   border-radius: 20px;
 }
 
-main {
+ main {
   position: absolute;
   top: 30%;
   left: 5%;
@@ -92,7 +93,7 @@ main {
 }
 
 .paragraph {
-  max-width: 700px;
+  width: 700px;
   font-size: 4rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -134,8 +135,12 @@ main {
 
 .btn2:hover {
   color: #7FBEF9
+} 
+@media screen and (max-width:739px) {
+   main{
+    width: 80vw;
+   }
 }
-
 @media screen and (max-width:734px) {
   .container {
     height: 700px;
@@ -357,3 +362,36 @@ main {
     font-size: 12px;
   }
 } 
+@media screen and (max-width:365px) {
+.paragraph{
+  font-size: 22px;
+  line-height: 38px;
+}
+.buttons{
+  margin-left: 0;
+}
+.btn1, .btn2{
+  font-size: 10px;
+}
+.nav-left img{
+  width: 34px;
+}
+}
+@media screen and (max-width:327px) {
+.paragraph{
+  font-size: 21px;
+  line-height: 36px;
+}
+.buttons{
+  margin-left: 0;
+}
+.btn1, .btn2{
+  font-size: 8px;
+}
+.nav-left img{
+  width: 32px;
+}
+.icons img{
+  width: 22px;
+}
+}

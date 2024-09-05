@@ -417,10 +417,11 @@
   .box {
     gap: 25px;
   }
+
   .img1 {
     position: absolute;
-    width: 178px;
-    height: 274px;
+    width: 171px;
+    height: 260px;
     top: 493px;
     left: 145px;
     background-size: cover;
@@ -453,9 +454,11 @@
   .box {
     gap: 25px;
   }
+
   .img1 {
     display: none;
   }
+
   .img4 {
     background-size: cover;
     position: absolute;
@@ -464,12 +467,14 @@
     top: 401px;
     left: 0px;
   }
+
   .bestsellers h2 {
     font-size: 32px;
     left: 22px;
   }
 
-  .img2 {display: none;
+  .img2 {
+    display: none;
   }
 }
 
@@ -570,10 +575,13 @@
     font-size: 28px;
     line-height: 36px;
   }
-  .img5, .img3 {
+
+  .img5,
+  .img3 {
     display: block;
 
   }
+
   .img3 {
     position: absolute;
     width: 211px;
@@ -622,17 +630,18 @@
 @media screen and (max-width:371px) {
   .box {
     height: 1052px;
-    padding:29px 35px;
+    padding: 29px 40px;
   }
+
   .newarrivals {
-    width: 300px;
+    width: 280px;
     height: 482px;
     position: relative;
     padding: 25px;
   }
-  
+
   .newarrivals .i1 {
-    width: 190px;
+    width: 170px;
     height: 141px;
     left: 109px;
     top: 341px;
@@ -661,23 +670,85 @@
   }
 
   .bestsellers {
-    width: 300px;
+    width: 280px;
   }
+
+  .img2 {
+    width: 78px;
+    height: 73px;
+    left: 180px;
+  }
+
   .img4 {
     position: absolute;
-    width: 102px;
-    height: 246px;
-    left: 193px;
-    top: 200px;
+    width: 87px;
+    height: 199px;
+    left: 181px;
+    top: 270px;
   }
-  .img3{
+
+  .img3 {
     width: 167px;
-        height: 174px;
+    height: 174px;
   }
-  .img5{
+
+  .img5 {
     width: 185px;
     height: 112px;
     left: 13px;
     top: 303px;
+  }
+}
+
+@media screen and (max-width:335px) {
+  .box {
+    padding: 29px 28px;
+  }
+}
+@media screen and (max-width:310px) {
+  .box {
+    padding: 29px 12px;
+  }
+}
+@media screen and (max-width:300px) {
+  .box {
+    padding: 29px 21px;
+  }
+  .newarrivals, .bestsellers{
+    width: 230px;
+  }
+  .newarrivals .i1{
+    width: 118px;
+    height: 130px;
+    left: 111px;
+    top: 351px;
+  }
+  .newarrivals .i4{
+    left: 10px;
+  }
+  .newarrivals .i3{
+    left: 80px;
+    top: 153px;
+  }
+  .img2{
+    width: 68px;
+    height: 63px;
+    left: 145px;
+
+  }
+  .img3{
+    width: 118px;
+    height: 123px;
+    top: 212px;
+  }
+  .img5{
+    width: 147px;
+    height: 90px;
+  }
+  .img4{
+    width: 75px;
+    height: 194px;
+    left: 147px;
+    top: 261px;
   }
 }
