@@ -1,6 +1,13 @@
 import React from "react";
 import "./Home.css";
+import { Link } from 'react-router-dom';
 const Home = () => {
+  const handleCollectionClick = () => {
+    window.location.href = "https://www.thehousedesigners.com/house-plans/collections/";
+  };
+  const handleCategoriesClick = () => {
+    window.location.href = "https://www.thehousedesigners.com/house-plans/architectural-styles/";
+  };
   return (
     <div className="container section">
       <header>
@@ -16,9 +23,11 @@ const Home = () => {
             
           </div>
           <div>
+            <Link to="/signup">
             <button className="logbtn">
               <img src="https://shelavale3795.github.io/user-stroke-rounded.svg" alt="logIn" />Log in/ Sign up
             </button>
+            </Link>
           </div>
         </div>
       </header>
@@ -30,8 +39,8 @@ const Home = () => {
           </p>
         </div>
         <div className="buttons">
-          <button className="btn1">View our latest collection</button>
-          <button className="btn2">Browse categories</button>
+          <button className="btn1" onClick={handleCollectionClick}>View our latest collection</button>
+          <button className="btn2"  onClick={handleCategoriesClick}>Browse categories</button>
         </div>
       </main>
     </div>

@@ -20,6 +20,9 @@
   display: flex;
   align-items: center;
 }
+.email img{
+  cursor: pointer;
+}
 
 .email p {
   color: #F9BA7F;
@@ -37,6 +40,9 @@
   align-items: center;
   gap: 65px;
   margin-top: 12px;
+}
+.space-icon img{
+  cursor: pointer;
 }
 
 form {
@@ -127,6 +133,26 @@ input:focus {
   font-family: 'Segoe UI', 'Open Sans';
   cursor: pointer;
 }
+
+
+.ipt {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  position: absolute;
+  right: -39px;
+  top: -16%;
+  white-space: nowrap;
+}
+
+
+
 
  @media screen and (max-width:1119px) {
   form{

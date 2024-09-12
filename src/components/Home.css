@@ -53,10 +53,12 @@ header {
   display: flex;
   align-items: center;
   gap: 48px;
+  
 }
 
 .icons img {
   width: 23px;
+  cursor: pointer;
 }
 
 .logbtn {
@@ -73,6 +75,9 @@ header {
   font-weight: 500;
   font-family: verdana;
   margin-right: -12px;
+}
+header a{
+  text-decoration: none;
 }
 
 .logbtn img {
@@ -289,7 +294,7 @@ header {
 @media screen and (max-width:390px) {
   .container {
     width: 100%;
-    max-height: 416px;
+    height: 416px;
     background-size: cover;
     background-position: center;
     padding: 0px 15px;

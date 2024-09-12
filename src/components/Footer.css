@@ -151,7 +151,10 @@ hr {
 .company {
   margin-right: 0px;
 }
-
+.error-input {
+  color: red;
+  border: 1px solid red;
+}
 @media screen and (max-width:1024px) {
   .footer {
     flex-direction: column;
