@@ -62,7 +62,7 @@
   width: 100%;
   padding: 10px;
   margin-top: 20px;
-  background-color: #007bff;
+  background-color: #d46648;
   color: white;
   border: none;
   border-radius: 5px;
@@ -72,7 +72,7 @@
 }
 
 .loginsignup button:hover {
-  background-color: #0056b3;
+  background-color: #e24115;
   font-weight: bold;
 }
 .loginsignup-login button {
@@ -81,7 +81,7 @@
   cursor: pointer;
   font-size: 14px;
   width: 100px;
-  background: #007bff;
+  background: #d46648;
 }
 
 .loginsignup-login button:hover {

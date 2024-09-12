@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./App.css";
 import Home from "./components/Home";
@@ -8,29 +9,35 @@ import Discover from "./components/Discover";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 
 const App = () => {
+  const location = useLocation();
+  const hideComponentsOnAuthPages = location.pathname === "/login" || location.pathname === "/signup";
+
   return (
     <div className="main_wrapper">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-      </BrowserRouter>
-      <NewArrivals />
-      <Categories />
-      <Collections />
-      <Discover />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      {!hideComponentsOnAuthPages && (
+        <>
+          <NewArrivals />
+          <Categories />
+          <Collections />
+          <Discover />
+          <Testimonials />
+          <Contact />
+          <Footer />
+        </>
+      )}
     </div>
   );
 };
 
 export default App;
+
