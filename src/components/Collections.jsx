@@ -11,15 +11,15 @@ const Collections = () => {
       <p className="para2">curated specially for you</p>
       <div className="row">
         <div className="col">
-          <img src="https://shelavale3795.github.io/collection1.jpeg" alt="col1" />
+          <img src="https://github.com/shelavalepallavi/homevibes/collection1.jpeg" alt="col1" />
           <button className="view" onClick={handleCollectionClick}>View collection</button>
         </div>
         <div className="col">
-          <img src="https://shelavale3795.github.io/collection2.jpeg" alt="col2" />
+          <img src="https://github.com/shelavalepallavi/homevibes/collection2.jpeg" alt="col2" />
           <button className="view" onClick={handleCollectionClick}>View collection</button>
         </div>
         <div className="col">
-          <img src="https://shelavale3795.github.io/collection3.jpeg" alt="col3" />
+          <img src="https://github.com/shelavalepallavi/homevibes/collection3.jpeg" alt="col3" />
           <button className="view" onClick={handleCollectionClick}>View collection</button>
         </div>
       </div>

@@ -16,7 +16,6 @@ const LoginSignup = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = () => {
     const { email, password } = formData;
     if (!email.includes('@')) {
