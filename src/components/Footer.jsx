@@ -28,7 +28,7 @@ const Footer = () => {
     <div className="footer">
       <div className="privacy">
         <div className="logo">
-          <img src="https://github.com/shelavalepallavi/homevibes/footer.svg" alt="logo" />
+          <img src="https://shelavale3795.github.io/homewillimages/footer.svg" alt="logo" />
           <p>
             Home<span>Vibes</span>
           </p>

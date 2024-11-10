@@ -12,20 +12,20 @@ const Home = () => {
     <div className="container section">
       <header>
         <div className="nav-left">
-          <img src="https://github.com/shelavalepallavi/homevibes/menu-01-stroke-rounded.svg" alt="section" />
+          <img src="https://shelavale3795.github.io/homewillimages/menu-01-stroke-rounded.svg" alt="section" />
           <span className="name">HomeVibes</span>
         </div>
         <div className="nav-right">
           <div className="icons">
-          <img src="https://github.com/shelavalepallavi/homevibes/blob/main/search-01-stroke-rounded.svg" alt="Search" />
-          <img className="heart" src="https://github.com/shelavalepallavi/homevibes/favourite-stroke-rounded.svg" alt="Likes" />
-          <img src="https://github.com/shelavalepallavi/homevibes/shopping-bag-03-stroke-rounded.svg" alt="cart" />
+          <img src="https://shelavale3795.github.io/homewillimages/search-01-stroke-rounded.svg" alt="Search" />
+          <img className="heart" src="https://shelavale3795.github.io/homewillimages/favourite-stroke-rounded.svg" alt="Likes" />
+          <img src="https://shelavale3795.github.io/homewillimages/shopping-bag-03-stroke-rounded.svg" alt="cart" />
             
           </div>
           <div>
             <Link to="/signup">
             <button className="logbtn">
-              <img src="https://github.com/shelavalepallavi/homevibes/user-stroke-rounded.svg" alt="logIn" />Log in/ Sign up
+              <img src="https://shelavale3795.github.io/homewillimages/user-stroke-rounded.svg" alt="logIn" />Log in/ Sign up
             </button>
             </Link>
           </div>

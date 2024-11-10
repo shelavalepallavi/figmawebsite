@@ -65,7 +65,7 @@ const Contact = () => {
       <div className="head">
         <div className="email">
           <img
-            src="https://github.com/shelavalepallavi/homevibes/email.svg"
+            src="https://shelavale3795.github.io/homewillimages/email.svg"
             alt="mail"
             onClick={handleContactClick}
           />
@@ -74,17 +74,17 @@ const Contact = () => {
 
         <div className="space-icon">
           <img
-            src="https://github.com/shelavalepallavi/homevibes/facebook.svg"
+            src="https://shelavale3795.github.io/homewillimages/facebook.svg"
             alt="facebook"
             onClick={handleFaceBookClick}
           />
           <img
-            src="https://github.com/shelavalepallavi/homevibes/insta.svg"
+            src="https://shelavale3795.github.io/homewillimages/insta.svg"
             alt="instagram"
             onClick={handleInstaClick}
           />
           <img
-            src="https://github.com/shelavalepallavi/homevibes/twitter.svg"
+            src="https://shelavale3795.github.io/homewillimages/twitter.svg"
             alt="twitter"
             onClick={handleContactClick}
           />

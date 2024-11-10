@@ -10,7 +10,7 @@ const Discover = () => {
         <div className="article">
           <div className="frame">
             <img
-              src="https://github.com/shelavalepallavi/homevibes/discover.jpeg"
+              src="https://shelavale3795.github.io/homewillimages/discover.jpeg"
               alt="discover"
             />
           </div>
