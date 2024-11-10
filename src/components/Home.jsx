@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className="nav-right">
           <div className="icons">
-          <img src="https://github.com/shelavalepallavi/homevibes/search-01-stroke-rounded.svg" alt="Search" />
+          <img src="https://github.com/shelavalepallavi/homevibes/blob/main/search-01-stroke-rounded.svg" alt="Search" />
           <img className="heart" src="https://github.com/shelavalepallavi/homevibes/favourite-stroke-rounded.svg" alt="Likes" />
           <img src="https://github.com/shelavalepallavi/homevibes/shopping-bag-03-stroke-rounded.svg" alt="cart" />
             
